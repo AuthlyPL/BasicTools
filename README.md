@@ -7,3 +7,6 @@ Narzędzia do tworzenia stron dla Web Developerów.
 
 # INSTALACJA CDN
 1. Dodajemy w plikach .html lub innych plikach od struktury strony:<br>``<script src="https://authly.pl/cdn/v1.0/BasicTools.js" text="text/javascript"></script>``
+
+# DOKUMENTACJA
+<h1>TEST</h1>
