@@ -1,3 +1,5 @@
+![basic-tools-banner](https://github.com/user-attachments/assets/8afdf5f9-3c7d-4cab-a359-a26e88c58d13)
+
 # BasicTools
 Narzędzia do tworzenia stron dla Web Developerów.
 
