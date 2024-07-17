@@ -9,9 +9,7 @@ Narzędzia do tworzenia stron dla Web Developerów.
 1. Dodajemy w plikach .html lub innych plikach od struktury strony:<br>``<script src="https://authly.pl/cdn/v1.0/BasicTools.js" text="text/javascript"></script>``
 
 # DOKUMENTACJA
-<h3>DEBUG MODE</h3>
+<h3>DEBUG MODE</h3><br>
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+test
 ```
