@@ -58,5 +58,11 @@ cookieExists('loggedIn'); // Zwraca true albo false
 ```
 
 ### USER
+```javascript
+copyText(text); // Kopiuje podany tekst
+copyText('hello world'); // Kopiuje do schowka hello world
+
+isMobile(); // Zwraca czy użytkownik korzysta z urządzenia mobilnego
+```
 
 ### UI
