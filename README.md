@@ -70,4 +70,8 @@ isMobile(); // Zwraca czy użytkownik korzysta z urządzenia mobilnego
 new CenterFixed(inner, idToAppend); // Tworzy wyśrodkowany statyczny objekt, przyłączony do idToAppend, gdy nie ustawione wpisuje do body
 new CenterFixed('<h1>Testowy center DIV</h1>', 'container'); // Tworzy objekt w #container
 new CenterFixed('<h1>Testowy center DIV</h1>'); // Tworzy objekt w <body>
+
+new FooterFixed(isCenter, left, translateX, bottom, background, inner, width, height, idToAppend);
+new FooterFixed(true, '', '', '25px', 'red', '<h1>Awesome website &copy; 2024</h1>', '50%', '100px', 'container');
+new FooterFixed(false, '25px', '-50%', '25px', 'red', '<h1>Awesome website &copy; 2024</h1>', '75%', '100px');
 ```
