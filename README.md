@@ -10,6 +10,8 @@ Narzędzia do tworzenia stron dla Web Developerów.
 
 # DOKUMENTACJA
 <h3>DEBUG MODE</h3>
-```javascript
-debugTools(toggle: true or false);
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
 ```
