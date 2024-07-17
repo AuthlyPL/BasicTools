@@ -9,7 +9,36 @@ Narzędzia do tworzenia stron dla Web Developerów.
 1. Dodajemy w plikach .html lub innych plikach od struktury strony:<br>``<script src="https://authly.pl/cdn/v1.0/BasicTools.js" text="text/javascript"></script>``
 
 # DOKUMENTACJA
-<h3>DEBUG MODE</h3><br>
+
+### DEBUG
+```javascript
+debugTools(true); // Włącza debugowanie
+debugTools(false); // Wyłącza debugowanie
+// Domyślnie: Wyłączone
 ```
-test
+
+### LOOP
+```javascript
+new Loop(id, seconds, cb); // Tworzy pętle
 ```
+```javascript
+stopLoop(id); // Zatrzymuje pętle
+```
+```javascript
+// Tworzenie pętli
+new Loop('loop-id', 5, () =>
+{
+    if (something) // Warunek zakończenia pętli
+    {
+        stopLoop('loop-id'); // Zakończenie pętli
+    }
+});
+```
+
+### META
+
+### DEBUG
+
+### USER
+
+### UI
