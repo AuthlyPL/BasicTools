@@ -66,3 +66,8 @@ isMobile(); // Zwraca czy użytkownik korzysta z urządzenia mobilnego
 ```
 
 ### UI
+```javascript
+new CenterFixed(inner, idToAppend); // Tworzy wyśrodkowany statyczny objekt, przyłączony do idToAppend, gdy nie ustawione wpisuje do body
+new CenterFixed('<h1>Testowy center DIV</h1>', 'container'); // Tworzy objekt w #container
+new CenterFixed('<h1>Testowy center DIV</h1>'); // Tworzy objekt w <body>
+```
