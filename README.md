@@ -43,8 +43,9 @@ new AnimatedIcon(['path/to/image/1.icon', 'path/to/image/2.icon'], 3); // dwie i
 
 ### COOKIES
 ```javascript
-addCookie(id, value, daysToExpire); // Tworzy plik cookie
+addCookie(id, value, daysToExpire); // Tworzy plik cookie, w przypadku nie ustawienia daysToExpire ustawia się na stałe
 addCookie('loggedIn', true, 3); // Dodaje plik cookie loggedIn na wartość true, ważny przez 3 dni
+addCookie('loggedIn', true); // Dodaje plik cookie loggedIn na wartość true, ważny na stałe
 
 deleteCookie(id); // Usuwa plik cookie
 deleteCookie('loggedIn'); // Usuwa plik cookie loggedIn
