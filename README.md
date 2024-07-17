@@ -44,6 +44,16 @@ new AnimatedIcon(['path/to/image/1.icon', 'path/to/image/2.icon'], 3); // dwie i
 ### COOKIES
 ```javascript
 addCookie(id, value, daysToExpire); // Tworzy plik cookie
+addCookie('loggedIn', true, 3); // Dodaje plik cookie loggedIn na wartość true, ważny przez 3 dni
+
+deleteCookie(id); // Usuwa plik cookie
+deleteCookie('loggedIn'); // Usuwa plik cookie loggedIn
+
+getCookieValue(id); // Zwraca wartość pliku cookie
+getCookieValue('loggedIn'); // Zwraca wartość lub w przypadku braku pliku cookie zwróci ''
+
+cookieExists(id); // Zwraca czy plik cookie został stworzony
+cookieExists('loggedIn'); // Zwraca true albo false
 ```
 
 ### USER
