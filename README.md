@@ -20,11 +20,8 @@ debugTools(false); // Wyłącza debugowanie
 ### LOOP
 ```javascript
 new Loop(id, seconds, cb); // Tworzy pętle
-```
-```javascript
 stopLoop(id); // Zatrzymuje pętle
-```
-```javascript
+
 // Tworzenie pętli
 new Loop('loop-id', 5, () =>
 {
@@ -36,8 +33,18 @@ new Loop('loop-id', 5, () =>
 ```
 
 ### META
+```javascript
+new AnimatedTitle(titles, change); // titles jako lista [], change jako co ile sekund zmienia
+new AnimatedTitle(['title 1', 'title 2'], 3); // dwa tytuły strony, zmiana co 3 sekundy
 
-### DEBUG
+new AnimatedIcon(icons, change); // titles jako lista [], change jako co ile sekund zmienia
+new AnimatedIcon(['path/to/image/1.icon', 'path/to/image/2.icon'], 3); // dwie ikony strony, zmiana co 3 sekundy
+```
+
+### COOKIES
+```javascript
+addCookie(id, value, daysToExpire); // Tworzy plik cookie
+```
 
 ### USER
 
